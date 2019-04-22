@@ -1,0 +1,27 @@
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#storybox{
+    background-color:#001900;
+    height:calc(100% - 4.2em);
+}
+#commandinput{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+#commandinput input{
+    font-size: 3em;
+    height:1em;
+    width:calc(100% - 1em);
+    padding: 0.2em 0.5em;
+    border:0;
+}
+#commandinput input:focus {
+    outline-width: 0;
+}
