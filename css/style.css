@@ -6,9 +6,20 @@ body{
     padding:0;
     height:100%;
 }
+p{
+    margin:0;
+    padding:0.25em 1em;
+    background-color:#001600;
+}
+p:nth-child(2n){
+    background-color:#001900;
+}
 #storybox{
     background-color:#001900;
-    height:calc(100% - 4.2em);
+    color:white;
+    padding:1em 0em;
+    height:calc(100% - 5.5em);
+    overflow:scroll;
 }
 #commandinput{
     position:absolute;
