@@ -1,0 +1,128 @@
+   Ideas
+
+TITLE: Escaping Terror Mansion
+
+INTRO:
+
+It is 3am and your unreliable car has left you stranded on the side of an unfamiliar road
+in the middle of a heavy storm.
+Your phone is on 5% and you don't have service.
+ahead of you there is a large metal gate full of vines.
+you press on the gate and it slowly swings open.
+you see a road leading to a large plantation style mansion there is light coming from a window on the second floor.
+you use your phone to light your way to the house.
+you get to the front door the house looks very old and run down but you hear voices coming from inside the house.
+you knock on the door and the voices cease.
+you hear footsteps approaching the door.
+the doorknob turns and slowly creeks open.
+a voice calls out "Come in".
+you enter but see no one.
+the door slams behind you.
+
+Starting Inventory:
+phone(1%)
+keys to car
+
+
+Bottom floor layout:
+
+
+ Kitchen---Family Room
+    |       |
+    |       |
+Dining----Foyer-------Study(office)
+           |
+        Front Door
+
+Font Door:
+Is locked (will not open no matter what)
+
+*Foyer:
+
+Examine:
+has a small table with a drawer
+
+there are stairs:
+lead to top floor
+
+open drawer:
+(can contain items)
+
+*study: (starts off locked)
+contains clues as to why the house is haunted.
+and tool to use to progress the game
+(map to hidden door in family room that leads to the basement)
+
+*Family Room:
+Event: The main antagonist ghost appears and threatens you!
+you have to use a light or it will kill you
+
+Examine:Nothing useful in this room
+
+Kitchen:
+drawers may have something of use
+(batteries or other item)
+
+*Dining Room:
+
+Event: As you enter the Dining Room  you hear footsteps running up the stairs;
+Examine:
+Old dinning table:
+Note on table
+
+top floor layout:
+
+closet/bath         bath      Room A
+    |                 |         |
+Large Room--------hallway-------|
+                 |              |
+               stairs         Room B
+                 (open to foyer)
+
+Top floor Rooms:
+* hallway:
+Examine:
+access to all rooms on the top floor
+
+* bath:
+Event: after (6000) scary sound and curtain slides open
+nothing is there
+
+Examine:
+there is a medicine cabinet and a pull out drawer
+
+drawers:
+contain items
+
+cabinet:
+contains items
+
+* Room A:
+Event: as you enter you see a small figure weeping in the corner
+(if provoked the ghost kills player)
+Examine:
+The weeping ghost
+a desk near the ghost
+a closet
+(anything that makes noise provokes the ghost)
+
+* Room B:
+Examine:
+Old bed
+chest of drawers
+closet
+
+chest of drawer:
+contains items
+
+closet: empty
+
+* Large Room:
+Event: Some Event
+(contains key to the study)
+Examine:
+
+*basement:
+Event: Some intense event
+
+task to cleanse the evil ghost allowing you to leave the house.
