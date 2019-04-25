@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#titleContainer{
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    border: solid darkred 5px;
+    padding: 8%;
+}
+
+#titleContainer p {
+    color: darkred;
+    font-family: 'Nosifer', cursive;
+    z-index: 25;
+    padding: 0;
+    margin: 0;
+}
+
+#canvas3 {
+    z-index: 5;
+    height: 23%;
+    width: 98%;
+    position: absolute;
+    top: 1%;
+    left: 0;
+}
+
+#canvas2 {
+    z-index: 10;
+    height: 23%;
+    width: 98%;
+    position: absolute;
+    top: 1%;
+    left: 0;
+}
+
+#canvas1 {
+    z-index: 20;
+    height: 23%;
+    width: 98%;
+    position: absolute;
+    top: 1%;
+    left: 0;
+}
+
