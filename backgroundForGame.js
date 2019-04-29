@@ -85,8 +85,10 @@ function createLightning() {
             pathLimit: random(40, 55)
         };
         lightning.push(single);
+        $('#title').toggleClass('white');
+        $('#title').toggleClass('red');
     }
-};
+}
 
 function drawRainTrough(i) {
     ctx1.beginPath();
