@@ -1,0 +1,133 @@
+Car
+
+House or Cemetery
+
+House
+	Floor 1:
+	Entryway
+	Living Room
+	Library
+	Kitchen
+Bathroom 1
+	Servant Quarters
+	Dining Room
+
+	Basement
+
+	Floor 2:
+		Hallway
+		Bedroom 1
+		Bedroom 2
+		Bedroom 3
+		Bedroom 4
+		Disco Room
+
+	Attic: The Body!
+
+
+The heavy door slams shut behind you.  You grab the handle and pull, but the door is unmoving, and you belatedly recall that the windows on the first floor are barred.  You get the sickening feeling that you have unwittingly stumbled into a bad horror movie. Your fears are reinforced as you turn and see scratches on the door, and dark smears down the ornate surface.  You follow the smears down and see stains on the floor that make it appear that something was dragged away.  This was a poor life choice, you think to yourself.
+
+The Entryway
+
+(Items: Candle, Broken Table Leg, Note (Suicide note, or letter about fear of being murdered))
+
+Try the stairs but a ghost screams at you.
+Game logic: You need to collect three notes to understand what you need to do and unlock the upstairs, or possibly find a method of pacifying the ghost so you can get up the stairway.
+
+
+<---------------Konami Code------------------->
+
+Konami Code hint ideas:  At the top of the stairs, it looks as though there might once have been a door, but it is now just a frame with panelling inside.
+
+--->Examine
+
+You see several gouges on the panelling where the door would have been.  They look random, except for two that seem to make out the letters “K” and “C”.
+
+(input Konami Code)
+
+The Disco Room (Konami Code Bonus)
+
+You have entered The Disco Room.
+("Never Gonna Give You Up" starts playing, screen flashing party colors)
+
+In the center of the room, the ghost of Rick Astley's heydey dances enthusiastically.  He gestures for you to join him.
+
+[[Dance with Rick Astley]]
+[[Get the Heck out of there]]
+
+--->Dance with Rick Astley
+
+You join Rick in the center of the room and dance with a level of passion that is almost frightening. For some reason, you trust this ghost.  You're confident that he's never going to give you up, never going to let you down, never going to turn around and desert you.
+
+[[Tired of Dancing, Leave Room]]
+[[Dance Again]]
+
+--->Dance again
+
+...[repeat above text]...
+
+[[Tired of Dancing, Leave Room]]
+[[Dance Again]]
+
+--->Dance again
+
+Rick Astley holds you in his arms, and you feel warm and safe, forgetting about whatever you were supposed to be doing.  THIS is where you belong.  You smile.  Rick Astley will never give you up.
+
+[[Game Over]]
+
+
+
+Torn Journal Pages:
+
+Note 1
+
+December 1, 1896
+
+I’ve been having some troubling thoughts lately.
+I don’t want to scare Helen, but I’ve recently been feeling...angry,
+when I really shouldn’t.  It’s a feeling that comes upon me, like a demon.
+I love Helen, but sometimes… I fear that I might hurt her.  I’m not sure who to turn to.
+Doctor Phillips is nice enough, but he talks, and I’m not sure he would know
+what to make of my… episodes.  If I were committed, what would happen to Helen?
+
+
+Note 2
+
+June 14, 1897
+
+My episodes have been increasing in frequency.  Today, I lashed out at Helen
+for something trivial that she said.  I can’t even recall what she said that
+made me so angry.  Actually, I can’t recall much of anything.  As I sit here,
+writing, I am surrounded by broken glass, and I must have overturned the study
+table.  Helen has locked herself in her room upstairs.  I hope I did not harm her.
+I pray I did not harm her.  Part of me is relieved that I dismissed the house staff,
+as they were not here to see me in my condition, but a growing part of me feels
+that it might have been a costly error in judgment.  We are isolated here.
+I am afraid.
+
+
+
+Note 3
+
+October 31, 1897
+
+It happened.  Dear God, my worst fear realized.  The hand that I am using to pen this
+entry is still covered in her
+
+
+
+Note 4
+
+November
+
+No one has come.  I thought surely someone would.  Someone would have heard the screams
+that still haunt me.  Someone would have noticed that we hadn't been to town.  But
+it has been quiet.  I am alone with my thoughts, with my guilt.  It's getting cold, but I can hardly feel it.
+
+
+
+Note 5
+
+I think it will be over soon.  I've heard Helen in the house.
+
+
