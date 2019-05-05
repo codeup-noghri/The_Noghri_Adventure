@@ -12,12 +12,17 @@
 
         note: {
             examine: "I am terribly sad.  I've lost Angelica.",
-            take: takeNote = () => player.inventory.notes += 1,
+            //------entryWay.note.take(); triggers function that updates player inventory.--//
+            take: takeNote = () => {
+                player.inventory.notes += 1;
+                console.log("The note has been added to your inventory.")
             },
+        },
 
         candle: {},
         toyChest: {}
-        };
+    };
+
 
     const player = {
 
@@ -25,7 +30,6 @@
             notes: 0,
             keys: 0,
         },
-
 
     }
 
