@@ -3,19 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>One Room Test</title>
+
+    <h1 id="title">Scary Story</h1>
+    <p id="story-block"></p>
+
 </head>
 <body>
 
+<button id="start-the-game">Start the game!</button>
+
 <script>
+    "use strict";
+
+    function storyStart() {
+        alert("You’ve run out of gas on a desolate stretch of road.  You’re so isolated that even Sprint can’t hear you now.");
+
+        alert("It’s 8:15 PM  You’ve been walking toward the nearest town for nearly an hour when you finally see signs of" +
+            " civilization: an overgrown driveway leading to a dilapidated iron gate.  Beyond the gate, the last of the fading" +
+            " light paints a lonely, gray Victorian home.  It’s bowed under the weight of years, but it is obvious that it was once quite beautiful.");
+
+        alert("A light briefly flickers and vanishes in an upper window.  That’s...unsettling, you think, but with darkness drawing around you," +
+            " your situation is too desperate for caution.  You shove the gate open, march up the long drive, mount the creaking stairs," +
+            " and tentatively knock on the front door.");
+
+        alert("After a moment, you raise your hand to knock again, but the door opens for you, and you think you see the glow of a candle inside.");
+
+        alert("“Hello?” you call out.  “Sorry if I woke you, but my car’s out of gas way down the road, and I was hoping you might have a phone I could use to call someone.”");
+
+        alert("Silence.");
+
+        alert("Hello?” you try again.");
+
+        alert("Come in..” a soft voice whispers.");
+
+        alert("That voice made your hair stand up, but you ignore your rising fear and step through the door.");
+
+        alert("It’s a mistake.");
+
+        alert("The heavy door slams shut behind you.  You whirl and grab the handle, pulling hard, but the door is unmoving." +
+            "You belatedly recall that the windows on the first floor are barred.");
+
+        alert("You get the sickening feeling that you have stupidly walked into a bad horror movie. Your fears are reinforced as you turn and see scratches on the door," +
+            "and dark smears down the ornate surface.  You then see the stains on the floor that make it" +
+            " appear that something was dragged away.  This was a poor life choice, you think to yourself.");
+
+    }
+    document.getElementById("start-the-game").addEventListener("click", storyStart);
 
     const entryWay = {
 
         note: {
-            examine: "I am terribly sad.  I've lost Angelica.",
+            examine: "I am terribly sad. I've lost Angelica.",
             //------entryWay.note.take(); triggers function that updates player inventory.--//
-            take: takeNote = () => {
+            take: function takeNote() {
                 player.inventory.notes += 1;
-                console.log("The note has been added to your inventory.")
+                alert("The note has been added to your inventory.");
             },
         },
 
@@ -24,7 +66,7 @@
     };
 
 
-    const player = {
+    let player = {
 
         inventory: {
             notes: 0,
