@@ -40,9 +40,9 @@ function setupScreen()
     canvas.style.zIndex="-1";
     canvas.backgroundColor='rgb(0,0,0)';
     player={
-        x:3,
+        x:6,
         y:6,
-        nextX:3,
+        nextX:6,
         nextY:6
     };
     gameMap = createArray(canvas.width,canvas.height);
@@ -59,7 +59,7 @@ function draw()
     for(let ix=0;ix<gameMap.length;ix++){
         for (let iy=0;iy<gameMap[ix].length;iy++){
             if(gameMap[ix][iy]==="wall"){
-                ctx.fillStyle="grey";
+                ctx.fillStyle="transparent";
                 ctx.fillRect(ix*res,iy*res,res,res);
             }
         }
@@ -207,23 +207,23 @@ commandInput.bind("keypress", {}, keypressInBox);
 let kitchenMap=[
     [null,null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,"wall","wall",null,null,null,null],
-    [null,null,null,null,"wall","wall",null,null,null,null],
-    [null,null,null,null,"wall","wall",null,null,null,null],
-    [null,null,null,null,"wall","wall",null,null,null,null],
-    [null,null,null,null,"wall","wall",null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
-    [null,null,null,null,null,null,null,null,null,null],
+    ["wall","wall","wall","wall","wall","wall","wall","wall","wall","wall"],
+    [null,"wall","wall","wall","wall","wall","wall",null,null,"wall"],
+    [null,"wall","wall","wall","wall","wall","wall",null,null,"wall"],
+    [null,"wall","wall",null,null,null,null,null,null,"wall"],
+    [null,"wall","wall",null,null,null,null,null,null,"wall"],
+    [null,"wall","wall",null,null,null,null,null,null,"wall"],
+    [null,"wall","wall",null,null,"wall","wall",null,null,null,"wall"],
+    [null,"wall","wall",null,null,"wall","wall",null,null,null,"wall"],
+    [null,"wall","wall",null,null,"wall","wall",null,null,null,"wall"],
+    [null,"wall","wall",null,null,"wall","wall",null,null,"wall","wall"],
+    [null,"wall",null,null,null,"wall","wall",null,null,"wall","wall"],
+    [null,"wall",null,null,null,null,null,null,null,"wall","wall"],
+    [null,"wall",null,null,null,null,null,null,null,"wall","wall"],
+    [null,"wall",null,null,null,null,null,null,null,null],
+    [null,"wall","wall","wall","wall","wall","wall",null,null,null],
+    [null,"wall","wall","wall","wall","wall","wall",null,null,null],
+    ["wall","wall","wall","wall","wall","wall","wall",null,null,"wall","wall"],
+    ["wall","wall","wall","wall","wall","wall","wall",null,null,"wall","wall"],
 ];
 gameMap = kitchenMap;
