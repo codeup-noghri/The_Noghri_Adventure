@@ -17,6 +17,11 @@ let ctx=canvas.getContext('2d');
 
 let gameMap=[];
 
+function hint(){
+    alert(' HINT To move your character type : "move" + "direction(up,down,left,right)" + "numeric amount" into the white input area. Exp: Move up 2');
+}
+
+setTimeout(hint,5000);
 
 function createArray(length) {
     let arr = new Array(length || 0),
@@ -64,7 +69,6 @@ function draw()
             }
         }
     }
-
 }
 
 function isNumeric(input){
@@ -227,3 +231,4 @@ let kitchenMap=[
     ["wall","wall","wall","wall","wall","wall","wall",null,null,"wall","wall"],
 ];
 gameMap = kitchenMap;
+
