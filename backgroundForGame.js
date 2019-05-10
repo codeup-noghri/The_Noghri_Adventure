@@ -23,6 +23,10 @@ window.addEventListener('resize', function() {
     h = canvas1.height = canvas2.height = canvas3.height = document.innerHeight;
 });
 
+$('#Audio').trigger('load');
+$('#Audio').trigger('play');
+
+
 function random(min, max) {
     return Math.random() * (max - min + 1) + min;
 }
@@ -86,7 +90,6 @@ function createLightning() {
         };
         lightning.push(single);
         $('#title').toggleClass('white');
-        $('#title').toggleClass('red');
     }
 }
 
