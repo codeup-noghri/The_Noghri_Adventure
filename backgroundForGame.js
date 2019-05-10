@@ -200,5 +200,4 @@ function animloop() {
 animloop();
 
 
-
-setTimeout(startMusic,1000);
+$('#storm').trigger('play');
