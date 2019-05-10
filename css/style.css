@@ -1,0 +1,44 @@
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+p{
+    margin:0;
+    padding:0.25em 1em;
+    background-color:#001600;
+}
+p:nth-child(2n){
+    background-color:#001900;
+}
+#gameBox{
+    background-color:#000000;
+    color:white;
+    height:calc(100% - 5.5em);
+    width:100%;
+}
+#storybox{
+    background-color:#001900;
+    color:white;
+    padding:1em 0em;
+    height:calc(100% - 5.5em);
+    overflow:scroll;
+}
+#commandinput{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+#commandinput input{
+    font-size: 3em;
+    height:1em;
+    width:calc(100% - 1em);
+    padding: 0.2em 0.5em;
+    border:0;
+}
+#commandinput input:focus {
+    outline-width: 0;
+}
