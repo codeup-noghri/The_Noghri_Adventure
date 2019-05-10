@@ -1,3 +1,4 @@
+
 var canvas1 = document.getElementById('canvas1');
 var canvas2 = document.getElementById('canvas2');
 var canvas3 = document.getElementById('canvas3');
@@ -197,3 +198,7 @@ function animloop() {
     requestAnimationFrame(animloop);
 }
 animloop();
+
+
+
+setTimeout(startMusic,1000);

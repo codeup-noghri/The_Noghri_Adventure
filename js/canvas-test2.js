@@ -17,6 +17,8 @@ let ctx=canvas.getContext('2d');
 
 let gameMap=[];
 
+$('#bgSound').trigger('play');
+
 function hint(){
     alert(' HINT To move your character type : "move" + "direction(up,down,left,right)" + "numeric amount" into the white input area. Exp: Move up 2');
 }

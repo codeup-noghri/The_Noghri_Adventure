@@ -65,7 +65,7 @@ body{
      color: white;
      font-family: 'Nosifer', cursive;
      font-size: 2em;
-
+     transition: ease 2s;
 }
 
 .button:hover{
