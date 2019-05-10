@@ -6,12 +6,12 @@ body{
 }
 
 #titleContainer{
-    font-size: 2rem;
+    font-size: 5rem;
     text-align: center;
     background-color: black;
     border: solid darkred 5px;
     padding: 8%;
-    max-height: 25%;
+    height: 600px;
 }
 .red{
     color: darkred;
@@ -28,7 +28,7 @@ body{
 
 #canvas3 {
     z-index: 2;
-    height: 23%;
+    height: 100%;
     width: 98%;
     position: absolute;
     top: 1%;
@@ -37,7 +37,7 @@ body{
 
 #canvas2 {
     z-index: 3;
-    height: 23%;
+    height: 100%;
     width: 98%;
     position: absolute;
     top: 1%;
@@ -46,10 +46,36 @@ body{
 
 #canvas1 {
     z-index: 4;
-    height: 23%;
+    height: 100%;
     width: 98%;
     position: absolute;
     top: 1%;
     left: 0;
 }
+
+#start{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 100;
+    max-height: 20%;
+}
+.button{
+     background-color: transparent;
+     color: white;
+     font-family: 'Nosifer', cursive;
+     font-size: 2em;
+
+}
+
+.button:hover{
+    background-color: transparent;
+    border-color: darkred;
+    color: red;
+    font-family: 'Nosifer', cursive;
+    transition: ease 2s;
+    font-size: 2em;
+
+}
+
 
